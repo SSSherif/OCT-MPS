@@ -1,0 +1,33 @@
+####
+# Startup.mci 
+#
+# Anything in a line after "#" is ignored as comments.
+# Space lines are also ignored.
+# Lengths are in cm, mua and mus are in 1/cm.
+####
+
+1.0 					# file version
+1					# number of runs (keep at 1)
+					
+### Specify data for run 1
+WangBump.mco 	A 			# output filename, ASCII/Binary
+100000000 				# No. of photons
+
+11 					# No. of regions
+# n  mua[1/cm] mus[1/cm] g 	 	# One line for each region
+1.0 					# n for ambient medium.
+1.0	1.5	60	0.9 	 	# layer 1
+1.0	3.0	120	0.9	        # layer 2
+1.0	1.5	60	0.9	 	# layer 3
+1.0	3.0	120	0.9	        # layer 4
+1.0	1.5	60	0.9	 	# layer 5
+1.0	3.0	120	0.9	        # layer 6
+1.0	1.5	60	0.9	 	# layer 7
+1.0	3.0	120	0.9	        # layer 8
+1.0	1.5	60	0.9	    	# layer 9
+1.0	3.0	120	0.9	        # layer 10
+1.0	1.5	60	0.9	 	# layer 11
+
+#ProbePositionData
+0       0.1     0.1         	        #Start, Step, End
+

@@ -1,0 +1,19 @@
+##########################################################
+#  BiasStartup.mci
+#
+#  Anything in a line after "#" is ignored as comments.
+#  Space lines are also ignored.
+#  Lengths are in cm, mua and mus are in 1/cm.
+##########################################################
+
+1					# Type of Simulation: 1 or 2
+37					# Type of Bias: 0, 1, 2, or 3
+0.925				# Backward bias coefficient (0,1)
+0.0					# Target optical depth minimum [cm]
+0.19				# Target optical depth maximum [cm]
+0.0015				# Corerence length source [cm] 0.0015
+0					# Record photons flag:1-> All, 2->Filtered
+10e-4				# Maximum collecting radius [cm]
+5				    # Maximum collecting angle [degree]
+0.5 				# Probability additional bias
+0.01				# Max. rel. contrib. to bin per post-proc. sample

@@ -1,0 +1,28 @@
+##########################################
+# Sample.mci
+# 	A template for input files for OCTMPS.
+#	Any characters following a # are ignored as comments
+#	Space lines are also ignored.
+#	Lengths are in cm, mua and mus are in 1/cm.
+#
+#	Multiple runs may be stipulated.
+##########################################
+
+1.0                      	# file version
+1                        	# number of runs
+
+#### SPECIFY DATA FOR RUN 1
+#InParm                    	# Input parameters. cm is used.
+sample4.mco 	A	      	# output file name, ASCII.
+100000              		# No. of photons
+
+4                        	# Number of regions
+#n	mua	mus	g	# One line for each region
+1                         	# n for ambient medium
+1	1.5	60	0.9	# region 1
+1	3	120	0.9	# region 2
+1	1.5	60	0.9	# region 3
+1	3	120	0.9	# region 4
+
+#ProbePositionData
+0       0.001     0.1           #Start, Step, End
