@@ -32,10 +32,10 @@ python3 mesh_generator.py --geo_file=../../input/WangBump/WangBump.geo --output_
 ```
 
 ## Authors
-Siavash Malektaji (siavashmalektaji@gmail.com), 
+Siavash Malektaji, 
 Mauricio R. Escobar I., 
 Ivan T. Lima Jr., 
-Sherif S. Sherif
+Sherif S. Sherif (Sherif.Sherif@umanitoba.ca)
 
 ## License
 See [LICENSE](LICENSE).
