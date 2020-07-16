@@ -42,6 +42,6 @@ See [LICENSE](LICENSE).
 
 ## References
 
-If you use this software in a scientific publication, please cite the following paper:
+If you use this software in a scientific publication, you have to cite the following paper:
 
 Siavash Malektaji, Mauricio R. Escobar I., Ivan T. Lima Jr., and Sherif S. Sherif, "Massively Parallel Simulator of Optical Coherence  Tomography of Inhomogeneous Turbid Media".
